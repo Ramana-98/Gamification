@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AEM Wheel Spin Game - Sample Usage</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .wheelspin-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto py-8">
+        <h1 class="text-3xl font-bold text-center mb-8">AEM Wheel Spin Game Demo</h1>
+        
+        <!-- Sample AEM Component Usage -->
+        <div class="wheelspin-container" 
+             data-prizes='[{"text":"10% Off","color":"#FFC300","value":"DISCOUNT10"},{"text":"Free Shipping","color":"#FF5733","value":"FREESHIP"},{"text":"Buy One Get One","color":"#C70039","value":"BOGO"},{"text":"20% Off","color":"#900C3F","value":"DISCOUNT20"},{"text":"No Luck","color":"#581845","value":"NOLUCK"},{"text":"Gift Card","color":"#2E86C1","value":"GIFTCARD"}]'
+             data-colors='["#FFC300","#FF5733","#C70039","#900C3F","#581845","#2E86C1"]'
+             data-codes='{"DISCOUNT10":"SAVE10","FREESHIP":"FREESHIP","BOGO":"BOGO2024","DISCOUNT20":"SAVE20","GIFTCARD":"GIFT100"}'
+             data-title="Spin to Win!"
+             data-button-text="SPIN NOW"
+             data-spinning-text="Spinning..."
+             data-wheel-size="400"
+             data-animation-duration="4000"
+             data-min-revolutions="5"
+             data-max-revolutions="8"
+             data-sound-enabled="true">
+            
+            <div id="wheel-root"></div>
+        </div>
+        
+        <!-- Configuration Display -->
+        <div class="mt-8 bg-white rounded-lg shadow-md p-6">
+            <h2 class="text-xl font-semibold mb-4">AEM Configuration</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div>
+                    <h3 class="font-medium text-gray-700 mb-2">Prizes</h3>
+                    <pre class="bg-gray-100 p-3 rounded text-sm overflow-x-auto">[{"text":"10% Off","color":"#FFC300","value":"DISCOUNT10"},{"text":"Free Shipping","color":"#FF5733","value":"FREESHIP"},{"text":"Buy One Get One","color":"#C70039","value":"BOGO"},{"text":"20% Off","color":"#900C3F","value":"DISCOUNT20"},{"text":"No Luck","color":"#581845","value":"NOLUCK"},{"text":"Gift Card","color":"#2E86C1","value":"GIFTCARD"}]</pre>
+                </div>
+                <div>
+                    <h3 class="font-medium text-gray-700 mb-2">Redeem Codes</h3>
+                    <pre class="bg-gray-100 p-3 rounded text-sm overflow-x-auto">{"DISCOUNT10":"SAVE10","FREESHIP":"FREESHIP","BOGO":"BOGO2024","DISCOUNT20":"SAVE20","GIFTCARD":"GIFT100"}</pre>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Instructions -->
+        <div class="mt-8 bg-blue-50 border border-blue-200 rounded-lg p-6">
+            <h2 class="text-xl font-semibold mb-4 text-blue-800">How to Use in AEM</h2>
+            <ol class="list-decimal list-inside space-y-2 text-blue-700">
+                <li>Deploy the ClientLib files to your AEM instance</li>
+                <li>Add the "Wheel Spin Game" component to your page</li>
+                <li>Configure the prizes, colors, and redeem codes using the AEM dialog</li>
+                <li>The component will automatically initialize with your settings</li>
+                <li>Users can spin the wheel and receive prizes with redeem codes</li>
+            </ol>
+        </div>
+    </div>
+    
+    <!-- Include the AEM integration script -->
+    <script src="apps/gamification/clientlibs/wheelspin/assets/aem-integration.js"></script>
+</body>
+</html> 

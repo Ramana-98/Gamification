@@ -1,0 +1,4 @@
+#base=css
+
+# Include Tailwind CSS CDN or local file
+# For production, you might want to include a minified Tailwind CSS file 

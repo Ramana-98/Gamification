@@ -1,0 +1,4 @@
+#base=js
+
+assets/index-a3D1GFfS.js
+assets/aem-integration.js 

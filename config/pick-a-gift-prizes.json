@@ -1,0 +1,69 @@
+{
+  "prizes": [
+    {
+      "text": "30% OFF",
+      "value": "Use code: GIFT30",
+      "color": "#e74c3c",
+      "icon": "🎯",
+      "probability": 0.15
+    },
+    {
+      "text": "Free Shipping",
+      "value": "On orders over $25",
+      "color": "#3498db",
+      "icon": "🚚",
+      "probability": 0.20
+    },
+    {
+      "text": "$15 Gift Card",
+      "value": "Valid for 60 days",
+      "color": "#27ae60",
+      "icon": "💳",
+      "probability": 0.10
+    },
+    {
+      "text": "Buy 1 Get 1 Free",
+      "value": "Select items only",
+      "color": "#f39c12",
+      "icon": "🎁",
+      "probability": 0.08
+    },
+    {
+      "text": "Try Again!",
+      "value": "Better luck next time",
+      "color": "#95a5a6",
+      "icon": "🔄",
+      "probability": 0.25
+    },
+    {
+      "text": "20% OFF",
+      "value": "Use code: PICK20",
+      "color": "#9b59b6",
+      "icon": "🍀",
+      "probability": 0.12
+    },
+    {
+      "text": "Free Sample",
+      "value": "Choose any product",
+      "color": "#8e44ad",
+      "icon": "🎪",
+      "probability": 0.05
+    },
+    {
+      "text": "VIP Access",
+      "value": "Exclusive member benefits",
+      "color": "#d35400",
+      "icon": "👑",
+      "probability": 0.05
+    }
+  ],
+  "defaults": {
+    "title": "Choose a Gift!",
+    "subtitle": "Pick one of the gift boxes to reveal your prize",
+    "autoOpen": false,
+    "showCloseButton": true,
+    "animationDuration": 1000,
+    "variant": "default",
+    "size": "default"
+  }
+} 

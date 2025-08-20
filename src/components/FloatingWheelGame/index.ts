@@ -1,0 +1,1 @@
+export { FloatingWheelGame } from '../FloatingWheelGame';

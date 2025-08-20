@@ -1,0 +1,43 @@
+{
+  "segments": [
+    {
+      "text": "10% Off",
+      "color": "#FFC300",
+      "value": "DISCOUNT10"
+    },
+    {
+      "text": "Free Shipping",
+      "color": "#FF5733",
+      "value": "FREESHIP"
+    },
+    {
+      "text": "Buy One Get One",
+      "color": "#C70039",
+      "value": "BOGO"
+    },
+    {
+      "text": "20% Off",
+      "color": "#900C3F",
+      "value": "DISCOUNT20"
+    },
+    {
+      "text": "No Luck",
+      "color": "#581845",
+      "value": "NOLUCK"
+    },
+    {
+      "text": "Gift Card",
+      "color": "#2E86C1",
+      "value": "GIFTCARD"
+    }
+  ],
+  "defaults": {
+    "wheelSize": 400,
+    "animationDuration": 4000,
+    "minRevolutions": 5,
+    "maxRevolutions": 8,
+    "title": "Spin the Wheel!",
+    "buttonText": "SPIN",
+    "spinningText": "Spinning..."
+  }
+} 

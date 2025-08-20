@@ -1,0 +1,123 @@
+{
+  "prizes": [
+    {
+      "text": "0x",
+      "value": "Try Again!",
+      "color": "#7f8c8d",
+      "icon": "🔄",
+      "multiplier": 0
+    },
+    {
+      "text": "0.2x",
+      "value": "Small Loss",
+      "color": "#34495e",
+      "icon": "📉",
+      "multiplier": 0.2
+    },
+    {
+      "text": "0.5x",
+      "value": "Minor Loss",
+      "color": "#5d6d7e",
+      "icon": "📊",
+      "multiplier": 0.5
+    },
+    {
+      "text": "0.7x",
+      "value": "Break Even",
+      "color": "#95a5a6",
+      "icon": "⚖️",
+      "multiplier": 0.7
+    },
+    {
+      "text": "1x",
+      "value": "Even",
+      "color": "#85c1e9",
+      "icon": "🎯",
+      "multiplier": 1
+    },
+    {
+      "text": "1.1x",
+      "value": "Small Win",
+      "color": "#82e0aa",
+      "icon": "🍀",
+      "multiplier": 1.1
+    },
+    {
+      "text": "1.2x",
+      "value": "Minor Win",
+      "color": "#f7dc6f",
+      "icon": "⭐",
+      "multiplier": 1.2
+    },
+    {
+      "text": "1.3x",
+      "value": "Good Win",
+      "color": "#f8c471",
+      "icon": "💎",
+      "multiplier": 1.3
+    },
+    {
+      "text": "1.6x",
+      "value": "Great Win",
+      "color": "#e67e22",
+      "icon": "🔥",
+      "multiplier": 1.6
+    },
+    {
+      "text": "2.1x",
+      "value": "Big Win",
+      "color": "#e74c3c",
+      "icon": "🎰",
+      "multiplier": 2.1
+    },
+    {
+      "text": "3.2x",
+      "value": "Huge Win",
+      "color": "#8e44ad",
+      "icon": "👑",
+      "multiplier": 3.2
+    },
+    {
+      "text": "5.3x",
+      "value": "Mega Win",
+      "color": "#2ecc71",
+      "icon": "🚀",
+      "multiplier": 5.3
+    },
+    {
+      "text": "14x",
+      "value": "Epic Win",
+      "color": "#f39c12",
+      "icon": "💫",
+      "multiplier": 14
+    },
+    {
+      "text": "49x",
+      "value": "Legendary Win",
+      "color": "#e67e22",
+      "icon": "🌟",
+      "multiplier": 49
+    },
+    {
+      "text": "353x",
+      "value": "Mythical Win",
+      "color": "#e74c3c",
+      "icon": "🏆",
+      "multiplier": 353
+    }
+  ],
+  "defaults": {
+    "boardWidth": 600,
+    "boardHeight": 800,
+    "pinRows": 12,
+    "ballSize": 8,
+    "pinSize": 6,
+    "animationDuration": 3000,
+    "title": "Plinko Game",
+    "buttonText": "DROP BALL",
+    "droppingText": "Dropping...",
+    "instructions": "Drop the ball and watch it bounce through the pins to win prizes!",
+    "variant": "default",
+    "size": "default"
+  }
+} 

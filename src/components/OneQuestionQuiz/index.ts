@@ -1,0 +1,1 @@
+export { Quiz, quizVariants, type QuizProps, type QuizData, type QuizResult } from './Quiz'; 

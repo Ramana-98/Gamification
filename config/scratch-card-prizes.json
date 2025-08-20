@@ -1,0 +1,64 @@
+{
+  "prizes": [
+    {
+      "text": "25% Discount",
+      "value": "Code: SCRATCH25",
+      "color": "#4CAF50",
+      "icon": "🎉"
+    },
+    {
+      "text": "Free Coffee",
+      "value": "Any size",
+      "color": "#aadd55",
+      "icon": "☕"
+    },
+    {
+      "text": "Win a Car!",
+      "value": "New Sedan",
+      "color": "#ff0000",
+      "icon": "🚗"
+    },
+    {
+      "text": "Try Again!",
+      "value": "Better luck next time",
+      "color": "#95a5a6",
+      "icon": "🔄"
+    },
+    {
+      "text": "50% Off",
+      "value": "Code: SCRATCH50",
+      "color": "#e74c3c",
+      "icon": "🔥"
+    },
+    {
+      "text": "Free Sample",
+      "value": "Choose any product",
+      "color": "#8e44ad",
+      "icon": "🎪"
+    },
+    {
+      "text": "VIP Access",
+      "value": "Exclusive member benefits",
+      "color": "#d35400",
+      "icon": "👑"
+    },
+    {
+      "text": "Free Shipping",
+      "value": "On orders over $25",
+      "color": "#3498db",
+      "icon": "🚚"
+    }
+  ],
+  "defaults": {
+    "cardWidth": 300,
+    "cardHeight": 200,
+    "scratchColor": "#c0c0c0",
+    "scratchPattern": "Scratch to reveal your prize!",
+    "revealThreshold": 60,
+    "title": "Scratch Card",
+    "resetButtonText": "Play Again",
+    "instructions": "Scratch the surface to reveal your prize!",
+    "variant": "default",
+    "size": "default"
+  }
+} 

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+    jcr:primaryType="nt:unstructured"
+    jcr:title="Wheel Spin Game"
+    sling:resourceType="cq/gui/components/authoring/dialog">
+    <content
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="granite/ui/components/coral/foundation/container">
+        <items jcr:primaryType="nt:unstructured">
+            <column
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="granite/ui/components/coral/foundation/container">
+                <items jcr:primaryType="nt:unstructured">
+                    <title
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldLabel="Title"
+                        name="./title"
+                        value="Spin the Wheel!"/>
+                    <buttonText
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldLabel="Button Text"
+                        name="./buttonText"
+                        value="SPIN"/>
+                    <spinningText
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"
+                        fieldLabel="Spinning Text"
+                        name="./spinningText"
+                        value="Spinning..."/>
+                    <wheelSize
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
+                        fieldLabel="Wheel Size"
+                        name="./wheelSize"
+                        value="400"/>
+                    <animationDuration
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
+                        fieldLabel="Animation Duration (ms)"
+                        name="./animationDuration"
+                        value="4000"/>
+                    <minRevolutions
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
+                        fieldLabel="Min Revolutions"
+                        name="./minRevolutions"
+                        value="5"/>
+                    <maxRevolutions
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
+                        fieldLabel="Max Revolutions"
+                        name="./maxRevolutions"
+                        value="8"/>
+                    <soundEnabled
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/checkbox"
+                        fieldLabel="Enable Sound"
+                        name="./soundEnabled"
+                        value="true"/>
+                    <prizes
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
+                        fieldLabel="Prizes (JSON)"
+                        name="./prizes"
+                        value='[{"text":"10% Off","color":"#FFC300","value":"DISCOUNT10"},{"text":"Free Shipping","color":"#FF5733","value":"FREESHIP"},{"text":"Buy One Get One","color":"#C70039","value":"BOGO"},{"text":"20% Off","color":"#900C3F","value":"DISCOUNT20"},{"text":"No Luck","color":"#581845","value":"NOLUCK"},{"text":"Gift Card","color":"#2E86C1","value":"GIFTCARD"}]'/>
+                    <colors
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
+                        fieldLabel="Colors (JSON)"
+                        name="./colors"
+                        value='["#FFC300","#FF5733","#C70039","#900C3F","#581845","#2E86C1"]'/>
+                    <codes
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textarea"
+                        fieldLabel="Redeem Codes (JSON)"
+                        name="./codes"
+                        value='{"DISCOUNT10":"SAVE10","FREESHIP":"FREESHIP","BOGO":"BOGO2024","DISCOUNT20":"SAVE20","GIFTCARD":"GIFT100"}'>
+                        <granite:data
+                            jcr:primaryType="nt:unstructured"
+                            granite:placeholder="Enter JSON object with prize values as keys and codes as values"/>
+                    </codes>
+                </items>
+            </column>
+        </items>
+    </content>
+</jcr:root> 
